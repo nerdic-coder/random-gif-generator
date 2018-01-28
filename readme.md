@@ -1,14 +1,11 @@
-# Ionic PWA Toolkit
+# Random GIF generator
 
 ## Giphy API key
 You need to replace {API_KEY} with a real Giphy API key in src/components/random-gif/random-gif.tsx
 
-## About the Ionic PWA Toolkit
-The Ionic PWA Toolkit is the recommended way to build production ready Progressive Web Apps (PWAs) with Ionic. This toolkit gets you started with [Stencil](https://stenciljs.com/) and Ionic (4.x+). This combination of tools gives you the ability to build a fast, efficient PWA with zero config needed and best practices out of the box.
-
 ## Getting Started
 
-To start building a PWA with the Ionic PWA Toolkit, clone this repo to a new directory:
+To start building the Random GIF generator, clone this repo to a new directory:
 
 ```bash
 git clone https://github.com/ionic-team/ionic-pwa-toolkit.git random-gif-generator
@@ -78,3 +75,6 @@ npm run test.watch
 ## Testing your PWA's performance
 
 We recommend using https://www.webpagetest.org/easy with the `Run Lighthouse Audit` option turned on. This will give you an in depth look into your PWAs load performance on the average device connected to the average network. For more info on how to use webpagetest check out https://zoompf.com/blog/2015/07/the-seo-experts-guide-to-web-performance-using-webpagetest-2.
+
+## About the Ionic PWA Toolkit
+The Ionic PWA Toolkit is the recommended way to build production ready Progressive Web Apps (PWAs) with Ionic. This toolkit gets you started with [Stencil](https://stenciljs.com/) and Ionic (4.x+). This combination of tools gives you the ability to build a fast, efficient PWA with zero config needed and best practices out of the box.
