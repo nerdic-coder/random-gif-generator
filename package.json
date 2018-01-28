@@ -1,0 +1,53 @@
+{
+  "name": "@nerdiccoder/randomgif",
+  "private": true,
+  "version": "0.1.1",
+  "description": "Random GIF generator",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
+    "devWithSW": "sd concurrent \"stencil build --dev --service-worker --watch\" \"stencil-dev-server\" ",
+    "serve": "stencil-dev-server",
+    "start": "npm run dev",
+    "test": "jest --no-cache",
+    "test.watch": "jest --watch --no-cache"
+  },
+  "dependencies": {
+    "@ionic/core": "0.0.2-48",
+    "@stencil/core": "0.2.1",
+    "@stencil/router": "latest",
+    "clipboard": "^1.7.1"
+  },
+  "devDependencies": {
+    "@stencil/dev-server": "latest",
+    "@stencil/utils": "latest",
+    "@types/jest": "^21.1.1",
+    "jest": "^21.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheNerdicCoder/random-gif-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheNerdicCoder/random-gif-generator/issues"
+  },
+  "homepage": "https://github.com/TheNerdicCoder",
+  "author": "Johan Axelsson",
+  "license": "MIT",
+  "jest": {
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json",
+      "jsx"
+    ]
+  }
+}
